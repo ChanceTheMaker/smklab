@@ -1,0 +1,54 @@
+[
+  {
+    "id": "felucca",
+    "name": "Felucca SMK",
+    "short": "Felucca",
+    "eyebrow": "THE SOUND EXPLORER",
+    "description": "Go deep into synthesis. Shape a sound, find a new favorite, and turn a small keyboard into a much bigger instrument.",
+    "tags": [
+      "Synthesis",
+      "Sound design",
+      "Four tracks"
+    ],
+    "url": "https://chancethemaker.github.io/felucca-smk/",
+    "source": "https://github.com/ChanceTheMaker/felucca-smk",
+    "status": "beta",
+    "studio": "https://chancethemaker.github.io/felucca-smk/editor.html",
+    "simulator": "https://chancethemaker.github.io/felucca-smk/simulator.html",
+    "install": "https://chancethemaker.github.io/felucca-smk/#install",
+    "art": "assets/felucca-hardware.svg",
+    "screenshot": "assets/felucca-studio.webp"
+  },
+  {
+    "id": "sloop",
+    "name": "Sloop SMK",
+    "short": "Sloop",
+    "eyebrow": "THE GROOVE MACHINE",
+    "description": "Start with a beat. Layer synths, build patterns, and keep the ideas moving with a performance-minded groovebox.",
+    "tags": [
+      "Sequencing",
+      "Drums",
+      "Live performance"
+    ],
+    "url": "https://chancethemaker.github.io/sloop-smk/",
+    "source": "https://github.com/ChanceTheMaker/sloop-smk",
+    "status": "beta",
+    "studio": "https://chancethemaker.github.io/sloop-smk/editor.html",
+    "simulator": "https://chancethemaker.github.io/sloop-smk/simulator.html",
+    "install": "https://chancethemaker.github.io/sloop-smk/#install",
+    "art": "assets/sloop-hardware.svg",
+    "screenshot": "assets/sloop-studio.webp"
+  },
+  {
+    "id": "melodee",
+    "name": "Melodee SMK",
+    "short": "Melodee",
+    "eyebrow": "THE NEXT EXPERIMENT",
+    "description": "Another personality for your keyboard. The Melodee port is on the workbench, with a place here when it is ready.",
+    "tags": [
+      "Planned SMK port"
+    ],
+    "upstream": "https://github.com/keremimo/melodee",
+    "status": "planned"
+  }
+]
