@@ -34,7 +34,8 @@ The review destination is the REVIEW_QUEUE constant in dist/app.js. The dedicate
 - Desktop and phone layout inspected in Chrome; hero selector, dialog, required fields, and close behavior checked.
 - Submission URL assembly checked locally with a mock DOM: actual Markdown line breaks, correctly encoded title/body, and unsafe URL schemes rejected. No test issues posted.
 - Browser review requests require a GitHub account. No anonymous inbox/backend is included.
-- Live sibling paths match their repository READMEs. Remote HTTP checking was unavailable from this session; local assets are checked separately.
+- GitHub Pages deployment verified at https://chancethemaker.github.io/smklab/. Live homepage and submission dialog checked in Chrome with no console errors.
+- Sibling destination paths match their repository READMEs; local asset HTTP checks pass.
 
 ## Credits and license
 
