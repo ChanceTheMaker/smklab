@@ -44,19 +44,20 @@
     "name": "Melodee SMK",
     "short": "Melodee",
     "eyebrow": "THE SYNTH COLLECTION",
-    "description": "Explore Prophet, FM6, CZ-1, SID and drums in a native browser Studio and SMK simulator. The hardware port is in development.",
+    "description": "Explore Prophet, FM6, CZ-1, SID and drums on your SMK, in the native browser Studio or simulator. Experimental hardware beta.",
     "tags": [
       "Five engines",
       "Browser Studio",
-      "Hardware in development"
+      "Experimental beta"
     ],
     "upstream": "https://github.com/keremimo/melodee",
-    "status": "preview",
+    "status": "beta",
     "url": "https://chancethemaker.github.io/melodee-smk/",
     "source": "https://github.com/ChanceTheMaker/melodee-smk",
     "studio": "https://chancethemaker.github.io/melodee-smk/editor.html?audio=1",
     "simulator": "https://chancethemaker.github.io/melodee-smk/simulator.html",
     "art": "assets/melodee-hardware.svg",
-    "screenshot": "assets/melodee-studio.webp"
+    "screenshot": "assets/melodee-studio.webp",
+    "install": "https://chancethemaker.github.io/melodee-smk/#install"
   }
 ]

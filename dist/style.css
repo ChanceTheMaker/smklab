@@ -19,3 +19,8 @@ body{overflow-x:clip}
 .melodee-name{font:39px/1.3 Righteous,var(--sans);letter-spacing:-1px}.swatch.green{background:#bcedb4}
 .firmware-card:last-child:nth-child(odd),.studio-preview:last-child:nth-child(odd){grid-column:1/-1;max-width:760px;width:100%;justify-self:center}
 @media(min-width:1250px){.firmware-grid,.studio-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.firmware-card:last-child:nth-child(odd),.studio-preview:last-child:nth-child(odd){grid-column:auto}.studio-links{flex-wrap:wrap}.studio-links h3{width:100%;margin-bottom:0}}
+
+/* Shared SMK family destinations; follows each site’s own palette. */
+.smk-family{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px 20px;padding:18px 0;margin:0 0 18px;border-block:1px solid var(--line,#59626b);font:600 12px/1.6 system-ui,sans-serif;letter-spacing:0;text-align:center}.smk-family span{flex-basis:100%;font-size:10px;letter-spacing:.13em;text-transform:uppercase;opacity:.8}.smk-family a{color:inherit;text-decoration:underline;text-underline-offset:4px}.smk-family a:hover{color:var(--accent,currentColor)}.smk-family a:focus-visible{outline:2px solid currentColor;outline-offset:4px}
+
+.footer .smk-family{grid-column:1/-1;width:100%;flex-basis:100%}.footer:has(.smk-family){flex-wrap:wrap}

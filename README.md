@@ -12,7 +12,7 @@ Independent parent site for ChanceTheMaker's SMK-37 projects. Live site: https:/
 
 ## Collection
 
-Felucca SMK and Sloop SMK each link to their public homepage, installer section, Studio, simulator, and source. Melodee SMK links to its public browser preview, Studio, Simulator and source; its hardware port remains in development. Versions are deliberately omitted so the hub does not advertise a stale firmware build.
+Felucca SMK and Sloop SMK each link to their public homepage, installer section, Studio, simulator, and source. Melodee SMK links to its experimental beta installer, Studio, Simulator and source. All four sites include a shared family navigation section. Versions are deliberately omitted so the hub does not advertise a stale firmware build.
 
 Edit `src/firmwares.json` and run the build to add approved projects. Active entries require id, name, description, HTTPS url, and a status of beta, released or preview. Browser-only previews use status preview and do not advertise firmware installation. Planned entries use status planned. Optional fields: short, eyebrow, tags, source, upstream, studio, simulator, install, art, screenshot. Artwork/screenshots live under `dist/assets/`. Generic external resources do not need Studio/simulator/install links. Add explicit links only when they exist.
 
