@@ -12,9 +12,9 @@ Independent parent site for ChanceTheMaker's SMK-37 projects. Live site: https:/
 
 ## Collection
 
-Felucca SMK and Sloop SMK each link to their public homepage, installer section, Studio, simulator, and source. Melodee is listed as a planned SMK port, with a link to its original project. Versions are deliberately omitted so the hub does not advertise a stale firmware build.
+Felucca SMK and Sloop SMK each link to their public homepage, installer section, Studio, simulator, and source. Melodee SMK links to its public browser preview, Studio, Simulator and source; its hardware port remains in development. Versions are deliberately omitted so the hub does not advertise a stale firmware build.
 
-Edit `src/firmwares.json` and run the build to add approved projects. Active entries require id, name, description, HTTPS url, and a status of beta or released. Planned entries use status planned. Optional fields: short, eyebrow, tags, source, upstream, studio, simulator, install, art, screenshot. Artwork/screenshots live under `dist/assets/`. Generic external resources do not need Studio/simulator/install links. Add explicit links only when they exist.
+Edit `src/firmwares.json` and run the build to add approved projects. Active entries require id, name, description, HTTPS url, and a status of beta, released or preview. Browser-only previews use status preview and do not advertise firmware installation. Planned entries use status planned. Optional fields: short, eyebrow, tags, source, upstream, studio, simulator, install, art, screenshot. Artwork/screenshots live under `dist/assets/`. Generic external resources do not need Studio/simulator/install links. Add explicit links only when they exist.
 
 Page copy lives in `src/index.template.html`. Styles, client behavior, and credits are maintained directly in `dist/style.css`, `dist/app.js`, and `dist/credits.html`; the build regenerates only index.html. The three-channel decorative patch bay and hero selector are authored in the template; update those if the featured lineup changes.
 
@@ -39,7 +39,7 @@ The review destination is the REVIEW_QUEUE constant in dist/app.js. The dedicate
 
 ## Credits and license
 
-Created for Chance Roth (@ChanceTheMaker). Artwork and screenshots adapted from Felucca SMK and Sloop SMK. Credits acknowledge Felucca by Leo Kuroshita / Hügelton Instruments, Sloop by isod89, and Melodee by keremimo. GPL-3.0 site license and redistributed font licenses are included; see dist/credits.html.
+Created for Chance Roth (@ChanceTheMaker). Artwork and screenshots adapted from Felucca SMK, Sloop SMK and Melodee SMK. Credits acknowledge Felucca by Leo Kuroshita / Hügelton Instruments, Sloop by isod89, and Melodee by keremimo. GPL-3.0 site license and redistributed font licenses are included; see dist/credits.html.
 
 The hub adds no analytics and requests no MIDI access. The linked websites keep their own privacy behavior.
 
