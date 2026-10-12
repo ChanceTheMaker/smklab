@@ -26,3 +26,18 @@ body{overflow-x:clip}
 .footer .smk-family{grid-column:1/-1;width:100%;flex-basis:100%}.footer:has(.smk-family){flex-wrap:wrap}
 .firmware-card.doom{--card-accent:#ee8062}.doom .card-art{background:radial-gradient(ellipse at center,#bd443a32,transparent 65%)}.doom-name{font-weight:900;letter-spacing:-1px}.doom-jack{color:#ee8062}
 @media(min-width:1250px){.firmware-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Doom's own scorched-metal cabinet; the rest of the collection stays neutral. */
+.firmware-card.doom{--card-accent:#ff7447;position:relative;isolation:isolate;border-color:#704335;border-radius:8px;background:radial-gradient(ellipse at 50% 22%,#8f2e203a,transparent 62%),repeating-linear-gradient(115deg,#ffffff08 0 1px,transparent 1px 160px),linear-gradient(150deg,#242426,#141315 58%,#211410);box-shadow:inset 0 1px #c0956540,inset 0 -3px #080808,0 12px 30px #0003}
+.firmware-card.doom::before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,#653021,#ff9b50 35%,#ffe1a2 50%,#ff9b50 65%,#653021);box-shadow:0 2px 18px #f653282b;pointer-events:none}
+.firmware-card.doom:hover{border-color:#d98050;box-shadow:inset 0 1px #eaba8050,inset 0 -3px #080808,0 16px 38px #0005}
+.doom .card-top .mono{color:#e7b88e}.doom .badge{color:#f4c894;border-color:#825139;background:#2a1913;border-radius:2px}
+.doom .card-art{position:relative;background:radial-gradient(ellipse at 50% 72%,#ed482644,transparent 66%)}
+.doom .card-art::after{content:"";position:absolute;bottom:0;left:15%;right:15%;height:1px;background:linear-gradient(90deg,transparent,#c16438,transparent);box-shadow:0 3px 18px #f65426;z-index:-1}
+.doom .doom-name{display:flex;align-items:center;gap:18px;line-height:1;letter-spacing:0}
+.doom-wordmark{display:block;width:clamp(175px,18vw,270px);max-width:70%;height:auto;filter:drop-shadow(0 3px 0 #080809) drop-shadow(0 0 15px #e86b2015)}
+.doom-platform{font:700 11px/1.6 var(--mono);letter-spacing:1.6px;max-width:74px;color:#ddc2a8;padding-left:14px;border-left:2px solid #9e583b}
+.doom .card-copy>p{color:#c6bcb4}.doom .tags li{color:#d9bfa6;border-color:#564237;background:#171313;border-radius:2px}
+.doom .card-primary{color:#fff3db;border:1px solid #d88754;border-bottom-color:#71331f;border-radius:3px;text-transform:uppercase;letter-spacing:1px;font:700 12px/1.6 var(--mono);background:linear-gradient(#b74e30,#8c2f22);box-shadow:inset 0 1px #fcb66b70,0 3px 0 #3d1c16,0 5px 15px #0004}
+.doom .card-primary:hover{background:linear-gradient(#d96536,#a23b25);border-color:#ffba75}.doom .card-links{border-color:#594136;color:#c7afa0}
+@media(max-width:760px){.doom-wordmark{width:230px}.doom .doom-name{gap:12px}.doom-platform{font-size:10px;padding-left:12px}}
