@@ -24,3 +24,5 @@ body{overflow-x:clip}
 .smk-family{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px 20px;padding:18px 0;margin:0 0 18px;border-block:1px solid var(--line,#59626b);font:600 12px/1.6 system-ui,sans-serif;letter-spacing:0;text-align:center}.smk-family span{flex-basis:100%;font-size:10px;letter-spacing:.13em;text-transform:uppercase;opacity:.8}.smk-family a{color:inherit;text-decoration:underline;text-underline-offset:4px}.smk-family a:hover{color:var(--accent,currentColor)}.smk-family a:focus-visible{outline:2px solid currentColor;outline-offset:4px}
 
 .footer .smk-family{grid-column:1/-1;width:100%;flex-basis:100%}.footer:has(.smk-family){flex-wrap:wrap}
+.firmware-card.doom{--card-accent:#ee8062}.doom .card-art{background:radial-gradient(ellipse at center,#bd443a32,transparent 65%)}.doom-name{font-weight:900;letter-spacing:-1px}.doom-jack{color:#ee8062}
+@media(min-width:1250px){.firmware-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

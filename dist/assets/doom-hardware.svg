@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title">
+<title id="title">SMK keyboard illustration with Doom on its screen</title>
+<defs><linearGradient id="body" x2="0" y2="1"><stop stop-color="#65434a"/><stop offset="1" stop-color="#261d26"/></linearGradient><linearGradient id="screen" x2="0" y2="1"><stop stop-color="#402719"/><stop offset="1" stop-color="#120c09"/></linearGradient><pattern id="keys" width="28" height="146" patternUnits="userSpaceOnUse"><rect width="27" height="146" rx="3" fill="#d9d6cc"/><rect width="3" height="146" fill="#2b272a"/></pattern></defs>
+<path d="M48 56h858l22 309-31 20H52l-28-21Z" fill="#141418"/>
+<rect x="30" y="36" width="896" height="320" rx="27" fill="url(#body)" stroke="#9a6570" stroke-width="3"/>
+<rect x="55" y="59" width="844" height="118" rx="12" fill="#221e24"/>
+<g fill="#17191e" stroke="#796b70" stroke-width="3"><circle cx="100" cy="109" r="22"/><circle cx="169" cy="109" r="22"/><circle cx="239" cy="109" r="22"/><circle cx="680" cy="109" r="22"/><circle cx="749" cy="109" r="22"/><circle cx="818" cy="109" r="22"/></g>
+<g stroke="#edd7b8" stroke-width="3"><path d="M100 93v10m69-10v10m70-10v10m441-10v10m69-10v10m69-10v10"/></g>
+<rect x="359" y="54" width="235" height="135" rx="10" fill="#111215" stroke="#77636b"/>
+<rect x="372" y="65" width="209" height="110" rx="3" fill="url(#screen)"/>
+<text x="476" y="120" text-anchor="middle" font-family="Impact,Arial Black,sans-serif" font-size="51" font-weight="900" fill="#e7b66a" letter-spacing="2">DOOM</text>
+<path d="M388 132h177" stroke="#cd573b" stroke-width="3"/>
+<text x="476" y="157" text-anchor="middle" font-family="monospace" font-size="13" fill="#c6b4a2">YOUR SYNTH. THEIR DOOM.</text>
+<rect x="75" y="194" width="812" height="146" rx="5" fill="url(#keys)"/>
+<g fill="#16151b" stroke="#50414b"><path d="M97 194h17v83H97zm28 0h17v83h-17zm56 0h17v83h-17zm28 0h17v83h-17zm28 0h17v83h-17zm56 0h17v83h-17zm28 0h17v83h-17zm56 0h17v83h-17zm28 0h17v83h-17zm28 0h17v83h-17zm56 0h17v83h-17zm28 0h17v83h-17zm56 0h17v83h-17zm28 0h17v83h-17zm28 0h17v83h-17zm56 0h17v83h-17zm28 0h17v83h-17zm56 0h17v83h-17zm28 0h17v83h-17zm28 0h17v83h-17"/></g>
+<text x="877" y="369" text-anchor="end" font-family="monospace" font-size="12" fill="#c3a8a8">SMK-37 / DOOM</text>
+</svg>
