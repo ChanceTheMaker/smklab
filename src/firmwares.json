@@ -71,6 +71,6 @@
     "install": "https://chancethemaker.github.io/doom-fm1-smk/#install",
     "source": "https://github.com/ChanceTheMaker/doom-fm1-smk",
     "status": "beta",
-    "art": "assets/doom-hardware.svg"
+    "art": "assets/doom-smk-black.svg"
   }
 ]
