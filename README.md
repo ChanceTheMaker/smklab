@@ -46,3 +46,5 @@ The hub adds no analytics and requests no MIDI access. The linked websites keep 
 ## Publishing
 
 Run `node build.mjs`, commit the source on main, then use `git subtree split --prefix=dist -b gh-pages` to generate the static publishing branch. Push main and gh-pages to https://github.com/ChanceTheMaker/smklab.git. For later updates, split to a commit (`git subtree split --prefix=dist`), then push that commit to gh-pages without force; it should descend from the previous split. Pages serves gh-pages at its root.
+
+The Doom card uses the black SMK-37 SVG layout with an embedded 240px combat screenshot from `doom-fm1-smk/site/screenshots/combat.png`. The image is embedded so it renders reliably inside an SVG used as an image. Miniwad/Freedoom notices are retained under `dist/assets/licenses/`.
