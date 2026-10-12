@@ -11,9 +11,8 @@ for(const button of document.querySelectorAll('.voice-picker button'))button.add
  const voice=button.dataset.voice;
  document.querySelector('.hero-art').dataset.voice=voice;
  for(const b of document.querySelectorAll('.voice-picker button'))b.setAttribute('aria-pressed',String(b===button));
- document.getElementById('hero-felucca').hidden=voice!=='felucca';
- document.getElementById('hero-sloop').hidden=voice!=='sloop';
- document.querySelector('#hero-caption').textContent=voice==='sloop'?'02 / SLOOP SMK':'01 / FELUCCA SMK';
+ for(const name of ['felucca','sloop','melodee'])document.getElementById('hero-'+name).hidden=voice!==name;
+ document.querySelector('#hero-caption').textContent={felucca:'01 / FELUCCA SMK',sloop:'02 / SLOOP SMK',melodee:'03 / MELODEE SMK'}[voice];
 });
 const form=document.querySelector('#submission-form');
 function validWebUrl(input){input.setCustomValidity('');if(!input.value)return true;try{const u=new URL(input.value);if(!['https:','http:'].includes(u.protocol)||u.username||u.password)throw Error();}catch{input.setCustomValidity('Enter an http:// or https:// website URL without embedded credentials.');return false;}return true;}
