@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 126" role="img" aria-labelledby="title desc">
+<title id="title">DOOM</title><desc id="desc">Angular metal lettering with scorched gold edges, designed for Doom FM-1 / SMK.</desc>
+<defs>
+ <linearGradient id="metal" x2="0" y2="1"><stop stop-color="#ecede5"/><stop offset=".27" stop-color="#a8adb2"/><stop offset=".45" stop-color="#535d68"/><stop offset=".48" stop-color="#e9c776"/><stop offset=".7" stop-color="#b78836"/><stop offset="1" stop-color="#a93a20"/></linearGradient>
+ <linearGradient id="edge" x2="0" y2="1"><stop stop-color="#f6edcc"/><stop offset=".48" stop-color="#808382"/><stop offset="1" stop-color="#d9582e"/></linearGradient>
+ <g id="letters" fill-rule="evenodd">
+  <path d="M12 10H77L97 30V81L72 110H12ZM37 34V86H61L72 73V40L65 34Z"/>
+  <path d="M113 10H181L196 25V97L178 116H111L103 103V25ZM129 35V91H170V35Z"/>
+  <path d="M211 10H279L295 25V103L287 116H220L202 97V25ZM228 35V91H269V35Z"/>
+  <path d="M302 10H334L361 51L388 10H423V110H397V53L371 91H350L328 54V110H302Z"/>
+ </g>
+</defs>
+<use href="#letters" transform="translate(0 6)" fill="#08090b" stroke="#08090b" stroke-width="7" stroke-linejoin="bevel"/>
+<use href="#letters" fill="url(#metal)" stroke="url(#edge)" stroke-width="2" stroke-linejoin="bevel"/>
+<path d="M17 15H74M117 15H178M215 15H276M307 15H332M390 15H418" stroke="#fff6dc" stroke-opacity=".65" stroke-width="2"/>
+<path d="M46 13L52 26L46 40M144 66L140 74L147 84M247 14L242 28L249 39M402 76L390 87L397 104" fill="none" stroke="#171719" stroke-opacity=".75" stroke-width="2"/>
+</svg>
