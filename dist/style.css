@@ -43,3 +43,5 @@ body{overflow-x:clip}
 @media(max-width:760px){.doom-wordmark{width:230px}.doom .doom-name{gap:12px}.doom-platform{font-size:10px;padding-left:12px}}
 
 .card-art:focus-visible{outline:3px solid var(--card-accent);outline-offset:-3px}
+
+.gamedude-name{display:flex;align-items:center;flex-wrap:wrap;gap:12px 18px;line-height:1}.gamedude-wordmark{display:block;width:270px;max-width:100%;height:auto}.gamedude-platform{font:700 11px/1.6 var(--mono);letter-spacing:1px;color:var(--muted)}
