@@ -65,12 +65,17 @@
     "name": "Doom FM-1 / SMK",
     "short": "Doom",
     "eyebrow": "THE UNEXPECTED CAMPAIGN",
-    "description": "Trade chords for a shotgun. Play an original three-level Doom campaign on FM-1, SMK-37 Pro or Elite, with enemies, sound effects and a face HUD. Experimental firmware; hardware test coverage varies by model.",
-    "tags": ["Doom engine", "Original campaign", "FM-1 / SMK-37"],
+    "description": "Trade chords for a shotgun. Play nine original levels on FM-1, SMK-37 Pro or Elite, with three weapons, music, sound effects and a classic HUD. Try it in your browser, too.",
+    "tags": [
+      "Doom engine",
+      "Original campaign",
+      "FM-1 / SMK-37"
+    ],
     "url": "https://chancethemaker.github.io/doom-fm1-smk/",
     "install": "https://chancethemaker.github.io/doom-fm1-smk/#install",
     "source": "https://github.com/ChanceTheMaker/doom-fm1-smk",
     "status": "beta",
-    "art": "assets/doom-smk-black.svg"
+    "art": "assets/doom-smk-black.svg",
+    "simulator": "https://chancethemaker.github.io/doom-fm1-smk/simulator.html"
   }
 ]

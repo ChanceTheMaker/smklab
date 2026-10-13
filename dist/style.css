@@ -41,3 +41,5 @@ body{overflow-x:clip}
 .doom .card-primary{color:#fff3db;border:1px solid #d88754;border-bottom-color:#71331f;border-radius:3px;text-transform:uppercase;letter-spacing:1px;font:700 12px/1.6 var(--mono);background:linear-gradient(#b74e30,#8c2f22);box-shadow:inset 0 1px #fcb66b70,0 3px 0 #3d1c16,0 5px 15px #0004}
 .doom .card-primary:hover{background:linear-gradient(#d96536,#a23b25);border-color:#ffba75}.doom .card-links{border-color:#594136;color:#c7afa0}
 @media(max-width:760px){.doom-wordmark{width:230px}.doom .doom-name{gap:12px}.doom-platform{font-size:10px;padding-left:12px}}
+
+.card-art:focus-visible{outline:3px solid var(--card-accent);outline-offset:-3px}
