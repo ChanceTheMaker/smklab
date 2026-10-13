@@ -95,5 +95,23 @@
     "art": "assets/gamedude-hardware.svg",
     "simulator": "https://chancethemaker.github.io/gamedude-fm1-smk/#play",
     "install": "https://chancethemaker.github.io/gamedude-fm1-smk/#flash-panel"
+  },
+  {
+    "id": "nesynth",
+    "name": "NESynth FM-1 / SMK",
+    "short": "NESynth",
+    "eyebrow": "THE 8-BIT ENCORE",
+    "description": "Drop in a NES ROM or ZIP, or try the included homebrew games. Play in your browser and build and flash FM-1 firmware over USB. SMK37 simulators and development builds are also available.",
+    "tags": [
+      "NES / ZIP",
+      "Homebrew games",
+      "FM-1 USB install"
+    ],
+    "url": "https://chancethemaker.github.io/NESynth-FM1-SMK/",
+    "source": "https://github.com/ChanceTheMaker/NESynth-FM1-SMK",
+    "status": "beta",
+    "art": "assets/nesynth-hardware.svg",
+    "simulator": "https://chancethemaker.github.io/NESynth-FM1-SMK/#player",
+    "install": "https://chancethemaker.github.io/NESynth-FM1-SMK/#flash-panel"
   }
 ]

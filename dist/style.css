@@ -45,3 +45,10 @@ body{overflow-x:clip}
 .card-art:focus-visible{outline:3px solid var(--card-accent);outline-offset:-3px}
 
 .gamedude-name{display:flex;align-items:center;flex-wrap:wrap;gap:12px 18px;line-height:1}.gamedude-wordmark{display:block;width:270px;max-width:100%;height:auto}.gamedude-platform{font:700 11px/1.6 var(--mono);letter-spacing:1px;color:var(--muted)}
+
+/* NESynth: classic console gray, charcoal and the complete oval wordmark. */
+.firmware-card.nesynth{--card-accent:#d32920;color:#252525;border-color:#aaa8a2;border-radius:8px;background:linear-gradient(135deg,#eeede8,#cccac4);box-shadow:inset 0 5px #d32920}
+.nesynth .card-top .mono{color:#50504d}.nesynth .badge{color:#494943;border-color:#93948a;background:#e5e6de}
+.nesynth .card-art{background:radial-gradient(ellipse at center,#d329201b,transparent 68%)}
+.nesynth-name{display:flex;align-items:center;flex-wrap:wrap;gap:12px 18px;line-height:1}.nesynth-wordmark{display:block;width:230px;max-width:100%;height:auto}.nesynth-platform{font:700 11px/1.6 var(--mono);letter-spacing:1px;color:#50504d}
+.nesynth .card-copy>p{color:#484845}.nesynth .tags li{color:#41413e;border-color:#b0afa7;background:#e6e5df}.nesynth .card-primary{color:#fff;background:#c42720}.nesynth .card-primary:hover{background:#ac201a}.nesynth .card-links{color:#484845;border-color:#afaea6}
