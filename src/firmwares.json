@@ -77,5 +77,23 @@
     "status": "beta",
     "art": "assets/doom-smk-black.svg",
     "simulator": "https://chancethemaker.github.io/doom-fm1-smk/simulator.html"
+  },
+  {
+    "id": "gamedude",
+    "name": "GameDude FM-1 / SMK",
+    "short": "GameDude",
+    "eyebrow": "THE POCKET ARCADE",
+    "description": "Bring your own Game Boy ROM and play on illustrated FM-1, SMK Pro or Elite controls. Prepare and install FM-1 firmware in your browser. SMK hardware support is in development.",
+    "tags": [
+      "Game Boy",
+      "Browser player",
+      "FM-1 USB install"
+    ],
+    "url": "https://chancethemaker.github.io/gamedude-fm1-smk/",
+    "source": "https://github.com/ChanceTheMaker/gamedude-fm1-smk",
+    "status": "beta",
+    "art": "assets/gamedude-hardware.svg",
+    "simulator": "https://chancethemaker.github.io/gamedude-fm1-smk/#play",
+    "install": "https://chancethemaker.github.io/gamedude-fm1-smk/#flash-panel"
   }
 ]
