@@ -83,18 +83,82 @@
     "name": "GameDude FM-1 / SMK",
     "short": "GameDude",
     "eyebrow": "THE POCKET ARCADE",
-    "description": "Bring your own Game Boy ROM and play on illustrated FM-1, SMK Pro or Elite controls. Prepare and install FM-1 firmware in your browser. SMK hardware support is in development.",
+    "description": "Turn your FM-1, SMK-37 Pro or Elite into a pocket arcade. Install once, then build your Game Boy library over Bluetooth or USB. Pick a saved game and play.",
     "tags": [
       "Game Boy",
-      "Browser player",
-      "FM-1 USB install"
+      "Bluetooth + USB",
+      "Multi-game storage"
     ],
     "url": "https://chancethemaker.github.io/gamedude-fm1-smk/",
     "source": "https://github.com/ChanceTheMaker/gamedude-fm1-smk",
     "status": "beta",
-    "art": "assets/gamedude-hardware.svg",
+    "art": "assets/gamedude-hardware-v2.svg",
     "simulator": "https://chancethemaker.github.io/gamedude-fm1-smk/#play",
-    "install": "https://chancethemaker.github.io/gamedude-fm1-smk/#flash-panel"
+    "install": "https://chancethemaker.github.io/gamedude-fm1-smk/#firmware-panel",
+    "games": "https://chancethemaker.github.io/gamedude-fm1-smk/#games-panel",
+    "logo": "assets/gamedude-wordmark.svg",
+    "hero": "assets/gamedude-hero.svg",
+    "heroAlt": "GameDude on FM-1, SMK-37 Pro and Elite with Breakout gameplay",
+    "artAlt": "SMK-37 Pro playing Breakout, with an enlarged display inset",
+    "screenshot": "assets/gamedude-simulator.png",
+    "screenshotAlt": "GameDude browser player showing Breakout in its classic green handheld shell",
+    "game": "Breakout",
+    "previewDescription": "Classic green. Familiar controls. Try the included Breakout homebrew, then choose FM-1, Pro, Elite or handheld controls in the player.",
+    "gallery": [
+      {
+        "file": "assets/gamedude-fm1.svg",
+        "label": "FM-1"
+      },
+      {
+        "file": "assets/gamedude-smk-pro.svg",
+        "label": "SMK-37 Pro"
+      },
+      {
+        "file": "assets/gamedude-smk-elite.svg",
+        "label": "SMK-37 Elite"
+      }
+    ]
+  },
+  {
+    "id": "gamedude-color",
+    "name": "GameDude Color FM-1 / SMK",
+    "short": "GameDude Color",
+    "eyebrow": "THE FULL-COLOR ARCADE",
+    "description": "The pocket arcade, in full color. Play Game Boy Color games on FM-1, SMK-37 Pro or Elite, with Bluetooth and USB uploads, multiple saved games and a browser player.",
+    "tags": [
+      "Game Boy Color",
+      "Bluetooth + USB",
+      "Multi-game storage"
+    ],
+    "url": "https://chancethemaker.github.io/gamedude-rgb/",
+    "source": "https://github.com/ChanceTheMaker/gamedude-rgb",
+    "status": "beta",
+    "art": "assets/gamedude-color-hardware-v2.svg",
+    "simulator": "https://chancethemaker.github.io/gamedude-rgb/#play",
+    "install": "https://chancethemaker.github.io/gamedude-rgb/#firmware-panel",
+    "games": "https://chancethemaker.github.io/gamedude-rgb/#games-panel",
+    "logo": "assets/gamedude-color-wordmark.svg",
+    "hero": "assets/gamedude-color-hero.svg",
+    "heroAlt": "GameDude Color on FM-1, SMK-37 Pro and Elite with Flooder gameplay",
+    "artAlt": "SMK-37 Pro playing Flooder, with an enlarged full-color display inset",
+    "screenshot": "assets/gamedude-color-simulator.png",
+    "screenshotAlt": "GameDude Color browser player showing Flooder mid-game in its Atomic Purple handheld shell",
+    "game": "Flooder",
+    "previewDescription": "Atomic Purple, full-color play. Try Flooder, the included color puzzle game, with the same FM-1, Pro, Elite and handheld controls.",
+    "gallery": [
+      {
+        "file": "assets/gamedude-color-fm1.svg",
+        "label": "FM-1"
+      },
+      {
+        "file": "assets/gamedude-color-smk-pro.svg",
+        "label": "SMK-37 Pro"
+      },
+      {
+        "file": "assets/gamedude-color-smk-elite.svg",
+        "label": "SMK-37 Elite"
+      }
+    ]
   },
   {
     "id": "nesynth",
