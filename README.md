@@ -16,7 +16,7 @@ Felucca SMK and Sloop SMK each link to their public homepage, installer section,
 
 Edit `src/firmwares.json` and run the build to add approved projects. Active entries require id, name, description, HTTPS url, and a status of beta, released or preview. Browser-only previews use status preview and do not advertise firmware installation. Planned entries use status planned. Optional fields: short, eyebrow, tags, source, upstream, studio, simulator, install, art, screenshot, logo, hero, heroAlt, artAlt, games, game, previewDescription, screenshotAlt and gallery (file/label pairs). Artwork/screenshots live under `dist/assets/`. Generic external resources do not need Studio/simulator/install links. Add explicit links only when they exist.
 
-Page copy lives in `src/index.template.html`. Styles, client behavior, and credits are maintained directly in `dist/style.css`, `dist/app.js`, and `dist/credits.html`; the build regenerates only index.html. The hero selector is generated from active registry entries; GameDude Color is initially featured. The decorative patch bay remains in the template.
+Page copy lives in `src/index.template.html`. Styles, client behavior, and credits are maintained directly in `dist/style.css`, `dist/app.js`, and `dist/credits.html`; the build regenerates only index.html. The hero slideshow is generated from active registry entries, starting with GameDude Color and crossfading every five seconds. It pauses while the page is hidden or a hero link has keyboard focus; reduced-motion preferences disable the fade. The decorative patch bay remains in the template.
 
 ## Site submissions and approval
 

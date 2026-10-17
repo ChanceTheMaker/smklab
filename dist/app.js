@@ -7,13 +7,25 @@ for(const button of document.querySelectorAll('[data-submit]'))button.addEventLi
 document.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
 dialog.addEventListener('close',()=>opener?.focus());
-for(const button of document.querySelectorAll('.voice-picker button'))button.addEventListener('click',()=>{
- const voice=button.dataset.voice;
- document.querySelector('.hero-art').dataset.voice=voice;
- for(const b of document.querySelectorAll('.voice-picker button'))b.setAttribute('aria-pressed',String(b===button));
- for(const art of document.querySelectorAll('.hardware-stack .hardware'))art.hidden=art.id!=='hero-'+voice;
- document.querySelector('#hero-caption').textContent=button.dataset.caption;
-});
+const hero=document.querySelector('.hero-art');
+const slides=[...hero.querySelectorAll('.hardware')];
+let slideIndex=slides.findIndex(slide=>slide.classList.contains('is-active'));
+// Keep the linked artwork stable while someone is using keyboard focus.
+for(const slide of slides)slide.hidden=false;
+if(slides.length>1)setInterval(()=>{
+ if(document.hidden||hero.contains(document.activeElement))return;
+ const previous=slides[slideIndex];
+ previous.classList.remove('is-active');
+ previous.inert=true;
+ previous.setAttribute('aria-hidden','true');
+ slideIndex=(slideIndex+1)%slides.length;
+ const next=slides[slideIndex];
+ next.inert=false;
+ next.removeAttribute('aria-hidden');
+ next.classList.add('is-active');
+ hero.dataset.voice=next.dataset.voice;
+ document.querySelector('#hero-caption').textContent=next.dataset.caption;
+},5000);
 const form=document.querySelector('#submission-form');
 function validWebUrl(input){input.setCustomValidity('');if(!input.value)return true;try{const u=new URL(input.value);if(!['https:','http:'].includes(u.protocol)||u.username||u.password)throw Error();}catch{input.setCustomValidity('Enter an http:// or https:// website URL without embedded credentials.');return false;}return true;}
 for(const input of form.querySelectorAll('input[type=url]'))input.addEventListener('input',()=>input.setCustomValidity(''));

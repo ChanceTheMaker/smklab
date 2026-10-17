@@ -35,10 +35,9 @@ const gamePreviews=games.map(p=>`<article class="game-preview ${p.id}"><div clas
 const featured=active.filter(p=>p.art);
 const initial=featured.find(p=>p.id==='gamedude-color')||featured[0];
 const caption=p=>`${String(active.indexOf(p)+1).padStart(2,'0')} / ${p.short.toUpperCase()}`;
-const heroImages=featured.map(p=>`<a class="hardware${p.hero?' hardware-collage':''}" id="hero-${p.id}" href="${esc(p.url)}"${p===initial?'':' hidden'} aria-label="Explore ${esc(p.name)}"><img src="${esc(p.hero||p.art)}" width="${p.hero?840:960}" height="${p.hero?650:430}" alt="${esc(p.heroAlt||p.name+' hardware illustration')}"></a>`).join('');
-const heroButtons=featured.map(p=>`<button data-voice="${p.id}" data-caption="${esc(caption(p))}" aria-controls="hero-${p.id}" aria-pressed="${p===initial}"><span class="swatch ${p.id}" aria-hidden="true"></span>${esc(p.short)}</button>`).join('');
+const heroImages=featured.map(p=>`<a class="hardware${p.hero?' hardware-collage':''}${p===initial?' is-active':''}" data-voice="${p.id}" data-caption="${esc(caption(p))}" id="hero-${p.id}" href="${esc(p.url)}"${p===initial?'':' hidden inert aria-hidden="true"'} aria-label="Explore ${esc(p.name)}"><img src="${esc(p.hero||p.art)}" width="${p.hero?840:960}" height="${p.hero?650:430}" alt="${esc(p.heroAlt||p.name+' hardware illustration')}"></a>`).join('');
 let html=await fs.readFile(path.join(root,'src/index.template.html'),'utf8');
-const replacements={CARDS:cards,PLANNED:planned,STUDIOS:studios,GAME_PREVIEWS:gamePreviews,HERO_IMAGES:heroImages,HERO_BUTTONS:heroButtons,HERO_VOICE:initial.id,HERO_CAPTION:esc(caption(initial)),SIGNAL:Array.from({length:45},(_,i)=>'<i style="--h:'+Math.round(6+Math.abs(Math.sin(i*.65)*Math.cos(i*.16))*34)+'px;--delay:'+(i*.04)+'s"></i>').join('')};
+const replacements={CARDS:cards,PLANNED:planned,STUDIOS:studios,GAME_PREVIEWS:gamePreviews,HERO_IMAGES:heroImages,HERO_VOICE:initial.id,HERO_CAPTION:esc(caption(initial)),SIGNAL:Array.from({length:45},(_,i)=>'<i style="--h:'+Math.round(6+Math.abs(Math.sin(i*.65)*Math.cos(i*.16))*34)+'px;--delay:'+(i*.04)+'s"></i>').join('')};
 for(const [key,value] of Object.entries(replacements))html=html.replaceAll('{{'+key+'}}',value);
 if(/\{\{[A-Z_]+\}\}/.test(html))throw Error('Unresolved template placeholder');
 await fs.writeFile(path.join(root,'dist/index.html'),html);
