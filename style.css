@@ -75,3 +75,6 @@ body{overflow-x:clip}
 /* Shared grid cells crossfade without changing the hero's size. */
 .hardware{opacity:0;visibility:hidden;pointer-events:none;transition:opacity .65s ease,visibility 0s linear .65s}
 .hardware.is-active{opacity:1;visibility:visible;pointer-events:auto;transition:opacity .65s ease,visibility 0s}
+
+/* Compact, readable release labels; wrap naturally on narrow cards. */
+.card-copy>.firmware-version,.game-preview-copy>.firmware-version{font:600 12px/1.6 var(--mono);color:#dce7d4;margin:10px 0 14px;min-height:0;max-width:none;letter-spacing:.1px;overflow-wrap:anywhere}
