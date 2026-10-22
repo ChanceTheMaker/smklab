@@ -65,18 +65,20 @@
     "name": "Doom FM-1 / SMK",
     "short": "Doom",
     "eyebrow": "THE UNEXPECTED CAMPAIGN",
-    "description": "Trade chords for a shotgun. Play nine original levels on FM-1, SMK-37 Pro or Elite, with three weapons, music, sound effects and a classic HUD. Try it in your browser, too.",
+    "description": "Play nine original Doom levels with weapons, music and a classic HUD. SMK release 24 adds illuminated drum-pad controls, press-to-dark feedback and Fader 2 brightness. FM-1 remains on release 16. The installer also restores original firmware; the SMK Pro round trip is verified.",
     "tags": [
-      "Doom engine",
-      "Original campaign",
-      "FM-1 / SMK-37"
+      "SMK 24 / FM-1 16",
+      "Illuminated pad controls",
+      "Nine-level campaign"
     ],
     "url": "https://chancethemaker.github.io/doom-fm1-smk/",
     "install": "https://chancethemaker.github.io/doom-fm1-smk/#install",
     "source": "https://github.com/ChanceTheMaker/doom-fm1-smk",
     "status": "beta",
-    "art": "assets/doom-smk-black.svg",
-    "simulator": "https://chancethemaker.github.io/doom-fm1-smk/simulator.html"
+    "art": "assets/doom-smk-black-24.svg",
+    "simulator": "https://chancethemaker.github.io/doom-fm1-smk/simulator.html",
+    "artAlt": "Black SMK-37 playing Doom, with cyan movement pads, amber strafe, green Use and red Fire",
+    "heroAlt": "Black SMK-37 playing Doom, with cyan movement pads, amber strafe, green Use and red Fire"
   },
   {
     "id": "gamedude",
