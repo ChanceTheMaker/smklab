@@ -37,3 +37,7 @@ for project,folder,logo in [('gamedude','arcade-fm1-smk','gamedude-logo.svg'),('
 shutil.copy2(WORKSPACE/'GameDude-RGB/web/homebrew/licenses/flooder.txt',assets/'licenses/flooder.txt')
 shutil.copy2(WORKSPACE/'arcade-fm1-smk/web/homebrew/licenses/gameboy-examples.txt',assets/'licenses/gameboy-examples.txt')
 print('Updated both wordmarks, six device screens, two heroes and two enlarged display insets.')
+
+# Preserve firmware control lighting when refreshing the existing artwork.
+from light_game_pads import main as light_game_pads
+light_game_pads()

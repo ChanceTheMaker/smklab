@@ -17,7 +17,8 @@
     "simulator": "https://chancethemaker.github.io/felucca-smk/simulator.html",
     "install": "https://chancethemaker.github.io/felucca-smk/#install",
     "art": "assets/felucca-hardware.svg",
-    "screenshot": "assets/felucca-studio.webp"
+    "screenshot": "assets/felucca-studio.webp",
+    "version": "SMK 0.9.30"
   },
   {
     "id": "sloop",
@@ -37,7 +38,8 @@
     "simulator": "https://chancethemaker.github.io/sloop-smk/simulator.html",
     "install": "https://chancethemaker.github.io/sloop-smk/#install",
     "art": "assets/sloop-hardware.svg",
-    "screenshot": "assets/sloop-studio.webp"
+    "screenshot": "assets/sloop-studio.webp",
+    "version": "SMK 2.8.0-b3"
   },
   {
     "id": "melodee",
@@ -58,7 +60,8 @@
     "simulator": "https://chancethemaker.github.io/melodee-smk/simulator.html",
     "art": "assets/melodee-hardware.svg",
     "screenshot": "assets/melodee-studio.webp",
-    "install": "https://chancethemaker.github.io/melodee-smk/#install"
+    "install": "https://chancethemaker.github.io/melodee-smk/#install",
+    "version": "SMK 1.1.0-b1-dc9"
   },
   {
     "id": "doom",
@@ -78,7 +81,8 @@
     "art": "assets/doom-smk-black-24.svg",
     "simulator": "https://chancethemaker.github.io/doom-fm1-smk/simulator.html",
     "artAlt": "Black SMK-37 playing Doom, with cyan movement pads, amber strafe, green Use and red Fire",
-    "heroAlt": "Black SMK-37 playing Doom, with cyan movement pads, amber strafe, green Use and red Fire"
+    "heroAlt": "Black SMK-37 playing Doom, with cyan movement pads, amber strafe, green Use and red Fire",
+    "version": "SMK 24 · FM-1 26"
   },
   {
     "id": "gamedude",
@@ -100,8 +104,8 @@
     "games": "https://chancethemaker.github.io/gamedude-fm1-smk/#games-panel",
     "logo": "assets/gamedude-wordmark.svg",
     "hero": "assets/gamedude-hero.svg",
-    "heroAlt": "GameDude on FM-1, SMK-37 Pro and Elite with Breakout gameplay",
-    "artAlt": "SMK-37 Pro playing Breakout, with an enlarged display inset",
+    "heroAlt": "GameDude on FM-1, SMK-37 Pro and Elite with Breakout gameplay, with cyan direction pads and magenta B/A pads illuminated",
+    "artAlt": "SMK-37 Pro playing Breakout, with an enlarged display inset, with cyan direction pads and magenta B/A pads illuminated",
     "screenshot": "assets/gamedude-simulator.png",
     "screenshotAlt": "GameDude browser player showing Breakout in its classic green handheld shell",
     "game": "Breakout",
@@ -119,7 +123,8 @@
         "file": "assets/gamedude-smk-elite.svg",
         "label": "SMK-37 Elite"
       }
-    ]
+    ],
+    "version": "v2.0 · SMK 953 · FM-1 939"
   },
   {
     "id": "gamedude-color",
@@ -141,8 +146,8 @@
     "games": "https://chancethemaker.github.io/gamedude-rgb/#games-panel",
     "logo": "assets/gamedude-color-wordmark.svg",
     "hero": "assets/gamedude-color-hero.svg",
-    "heroAlt": "GameDude Color on FM-1, SMK-37 Pro and Elite with Flooder gameplay",
-    "artAlt": "SMK-37 Pro playing Flooder, with an enlarged full-color display inset",
+    "heroAlt": "GameDude Color on FM-1, SMK-37 Pro and Elite with Flooder gameplay, with cyan direction pads and magenta B/A pads illuminated",
+    "artAlt": "SMK-37 Pro playing Flooder, with an enlarged full-color display inset, with cyan direction pads and magenta B/A pads illuminated",
     "screenshot": "assets/gamedude-color-simulator.png",
     "screenshotAlt": "GameDude Color browser player showing Flooder mid-game in its Atomic Purple handheld shell",
     "game": "Flooder",
@@ -160,7 +165,8 @@
         "file": "assets/gamedude-color-smk-elite.svg",
         "label": "SMK-37 Elite"
       }
-    ]
+    ],
+    "version": "v2.0 · SMK 985 · FM-1 983"
   },
   {
     "id": "nesynth",
@@ -178,6 +184,7 @@
     "status": "beta",
     "art": "assets/nesynth-hardware.svg",
     "simulator": "https://chancethemaker.github.io/NESynth-FM1-SMK/#player",
-    "install": "https://chancethemaker.github.io/NESynth-FM1-SMK/#flash-panel"
+    "install": "https://chancethemaker.github.io/NESynth-FM1-SMK/#flash-panel",
+    "version": "v2.0 · SMK 971 · FM-1 969"
   }
 ]
