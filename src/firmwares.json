@@ -65,9 +65,9 @@
     "name": "Doom FM-1 / SMK",
     "short": "Doom",
     "eyebrow": "THE UNEXPECTED CAMPAIGN",
-    "description": "Play nine original Doom levels with weapons, music and a classic HUD. SMK release 24 adds illuminated drum-pad controls, press-to-dark feedback and Fader 2 brightness. FM-1 remains on release 16. The installer also restores original firmware; the SMK Pro round trip is verified.",
+    "description": "Play nine original Doom levels with weapons, music and a classic HUD. SMK release 24 adds illuminated drum-pad controls, press-to-dark feedback and Fader 2 brightness. FM-1 release 26 adds GameDude-style illuminated controls and more responsive input scanning. The installer also restores original firmware; the SMK Pro round trip is verified.",
     "tags": [
-      "SMK 24 / FM-1 16",
+      "SMK 24 / FM-1 26",
       "Illuminated pad controls",
       "Nine-level campaign"
     ],
