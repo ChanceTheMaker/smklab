@@ -18,7 +18,7 @@
     "install": "https://chancethemaker.github.io/felucca-smk/#install",
     "art": "assets/felucca-hardware.svg",
     "screenshot": "assets/felucca-studio.webp",
-    "version": "SMK 0.9.30"
+    "version": "v1.6.1 · SMK build 930"
   },
   {
     "id": "sloop",
@@ -68,9 +68,9 @@
     "name": "Doom FM-1 / SMK",
     "short": "Doom",
     "eyebrow": "THE UNEXPECTED CAMPAIGN",
-    "description": "Play nine original Doom levels with weapons, music and a classic HUD. SMK release 24 adds illuminated drum-pad controls, press-to-dark feedback and Fader 2 brightness. FM-1 release 26 adds GameDude-style illuminated controls and more responsive input scanning. The installer also restores original firmware; the SMK Pro round trip is verified.",
+    "description": "Play nine original Doom levels with weapons, music and a classic HUD. SMK build 24 adds illuminated drum-pad controls, press-to-dark feedback and Fader 2 brightness. FM-1 build 26 adds GameDude-style illuminated controls and more responsive input scanning. The installer also restores original firmware; the SMK Pro round trip is verified.",
     "tags": [
-      "SMK 24 / FM-1 26",
+      "FM-1 + SMK",
       "Illuminated pad controls",
       "Nine-level campaign"
     ],
@@ -82,7 +82,7 @@
     "simulator": "https://chancethemaker.github.io/doom-fm1-smk/simulator.html",
     "artAlt": "Black SMK-37 playing Doom, with cyan movement pads, amber strafe, green Use and red Fire",
     "heroAlt": "Black SMK-37 playing Doom, with cyan movement pads, amber strafe, green Use and red Fire",
-    "version": "SMK 24 · FM-1 26"
+    "version": "v0.9 · SMK build 24 · FM-1 build 26"
   },
   {
     "id": "gamedude",

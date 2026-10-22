@@ -54,3 +54,5 @@ The Doom card uses the black SMK-37 SVG layout with an embedded 240px combat scr
 `tools/sync_gamedude_art.py` reads the sibling GameDude project artwork and current wordmarks, embeds the captured 160×144 homebrew screens into all three devices, and generates enlarged collection-card display insets. It finds the FM1-SMK workspace by its GameDude-RGB folder. Run it with Python, then rebuild. The browser screenshots show Breakout (Fabien Loison, WTFPL-2.0) and Flooder (Oliver Balfour, MIT); their notices are in dist/assets/licenses. Screens were captured during gameplay in the respective browser players. No commercial ROM artwork or game binaries are included in this hub.
 
 Doom release 24 uses `dist/assets/doom-smk-black-24.svg`: the existing illustration and embedded gameplay screen with only the eight mapped pads illuminated. The five-second crossfade is unchanged.
+
+Felucca uses the ported FM-1 upstream version in its public label (currently v1.6.1), with the SMK build listed separately. Doom uses the product version v0.9, with SMK build 24 and FM-1 build 26 shown separately. These SMK-LAB display labels do not alter USB updater identities.
